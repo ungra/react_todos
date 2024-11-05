@@ -1,6 +1,7 @@
 import Button from "./Button";
 import styles from "./App.module.css";
 import { useState } from "react";
+import { eachItem } from "ajv/dist/compile/util";
 
 function App() {
   const [todo, setTodo] = useState("");
@@ -27,6 +28,12 @@ function App() {
         ></input>
         <Button text={"Submit"} />
       </form>
+      <hr />
+      <ul>
+        {todos.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
     </div>
   );
 }
