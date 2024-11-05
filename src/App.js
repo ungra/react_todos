@@ -6,11 +6,12 @@ function App() {
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
   const onChange = (event) => {
+    event.preventDefault();
     setTodo(event.target.value);
   };
   const onSubmit = (event) => {
     event.preventDefault();
-    setTodos((current) => [todo, ...current]);
+    if (todo.trim() !== "") setTodos((current) => [todo.trim(), ...current]);
     setTodo("");
   };
   console.log(todos);
@@ -24,8 +25,8 @@ function App() {
           value={todo}
           placeholder="Write a ToDo"
         ></input>
+        <Button text={"Submit"} />
       </form>
-      <Button text={"Submit"} />
     </div>
   );
 }
