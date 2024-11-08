@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/git@github.com:ungra/react_todos.git/static/js/main.bf2a05e5.js",
+    "index.html": "/git@github.com:ungra/react_todos.git/index.html",
+    "main.bf2a05e5.js.map": "/git@github.com:ungra/react_todos.git/static/js/main.bf2a05e5.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bf2a05e5.js"
+  ]
+}
