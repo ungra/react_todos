@@ -1,11 +1,13 @@
 import PropTypes from "prop-types";
-import { generatePath } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from "react-router-dom";
 
 function Movie({ title, img, summary, genres }) {
   return (
     <div>
       <hr />
-      <h2>{title}</h2>
+      <h2>
+        <Link to="/movie">{title}</Link>
+      </h2>
       <img src={img} alt={title} />
       <p>{summary}</p>
       <ul>
