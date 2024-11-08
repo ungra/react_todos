@@ -43,5 +43,5 @@
   "devDependencies": {
     "ajv": "^8.17.1"
   },
-  "homepage": "https://ungra.github.io/git@github.com:ungra/react_todos.git"
+  "homepage": "https://ungra.github.io/react_todos"
 }

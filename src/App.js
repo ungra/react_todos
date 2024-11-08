@@ -4,7 +4,7 @@ import Details from "./route/Details";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react_todos">
       <Switch>
         <Route path="/" exact>
           <Home />
