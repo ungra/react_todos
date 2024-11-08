@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/git@github.com:ungra/react_todos.git/static/js/main.1df2d85a.js",
+    "main.js": "/git@github.com:ungra/react_todos.git/static/js/main.c6e960d5.js",
     "index.html": "/git@github.com:ungra/react_todos.git/index.html",
-    "main.1df2d85a.js.map": "/git@github.com:ungra/react_todos.git/static/js/main.1df2d85a.js.map"
+    "main.c6e960d5.js.map": "/git@github.com:ungra/react_todos.git/static/js/main.c6e960d5.js.map"
   },
   "entrypoints": [
-    "static/js/main.1df2d85a.js"
+    "static/js/main.c6e960d5.js"
   ]
 }
